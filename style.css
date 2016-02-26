@@ -1,4 +1,4 @@
-* верх*/
+/* верх*/
 body {
 	width: 1366px;
     height: 950px;
@@ -30,18 +30,23 @@ body {
 .button {
 	display: inline-block;
 	width: 100px;
-	height: 40px;
+	height: 38px;
+	border: 1px solid #504f4f;
 	text-decoration: none;
 	color: white;
 	line-height: 40px;
 	vertical-align: middle;
 	text-align: center;
 	margin-right: 40px;
-	border-right: 1px white solid;
+
+	/*border-right: 1px white solid;*/
 }
 .button:hover {
 	background-color: #403e3e;
 	cursor: pointer;
+	border-right: 1px white solid;
+	border-left: 1px white solid;
+
 }
 
  .sidebar {
